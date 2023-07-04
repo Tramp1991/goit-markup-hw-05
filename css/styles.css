@@ -257,7 +257,7 @@ ul {
 .strategy-item {
   --items: 4;
 }
-.strategy-item::before {
+/* .strategy-item::before {
   content: "";
   display: block;
   width: 100%;
@@ -273,8 +273,18 @@ ul {
 
 .strategy-item:nth-child(1)::before {
   background-image: url(../images/ante.png);
-}
+} */
+.strategy-box {
+  width: 100%;
+  height: 112px;
+  background-color: #f4f4fd;
 
+  background-size: contain;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .strategy-subtitle {
   color: var(--subtitle-color, #2e2f42);
   font-size: 20px;
