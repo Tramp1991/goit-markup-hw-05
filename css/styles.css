@@ -194,6 +194,17 @@ ul {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -326,6 +337,23 @@ ul {
 }
 
 .team-img {
+}
+/* <!-- Customers --> */
+
+.customers-section {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-title {
+  color: var(--subtitle-color, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 /* footer */
