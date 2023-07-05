@@ -431,6 +431,9 @@ footer .social-link:hover,
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
   color: #8e8f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .customers-link:hover,
 .customers-link:focus {
