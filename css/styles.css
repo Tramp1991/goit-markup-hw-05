@@ -472,6 +472,7 @@ footer .social-link:hover,
   margin-right: 120px;
 }
 .social-list {
+  gap: 16px;
 }
 .social-item .footer-logo {
   color: var(--accent, #4d5ae5);
