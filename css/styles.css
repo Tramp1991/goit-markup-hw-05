@@ -394,7 +394,8 @@ footer .social-link:hover,
 .social-link:focus {
   background-color: #31d0aa;
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: #404bbf;
 }
 .social-icon {
@@ -438,6 +439,7 @@ footer .social-link:hover,
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .customers-link:hover,
 .customers-link:focus {
