@@ -98,6 +98,10 @@ ul {
 .grid-item {
   flex-basis: calc((100% - 24px * (var(--items) - 1)) / var(--items));
 }
+footer .social-link:hover,
+.social-link:focus {
+  background-color: #31d0aa;
+}
 
 /* Header Styles */
 .header {
