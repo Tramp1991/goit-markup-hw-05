@@ -393,7 +393,7 @@ ul {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #404bbf;
+  background-color: #404bb;
 }
 .social-icon {
   fill: #f4f4fd;
@@ -471,9 +471,13 @@ ul {
 .social-list {
   gap: 16px;
 }
+footer .social-link:hover,
+footer .social-link:focus {
+  background-color: #31d0aa;
+}
 .social-link:hover,
 .social-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .social-item .footer-logo {
