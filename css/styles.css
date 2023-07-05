@@ -390,10 +390,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-footer .social-link:hover,
-.social-link:focus {
-  background-color: #31d0aa;
-}
+
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
@@ -488,7 +485,17 @@ footer .social-link:hover,
   margin-bottom: 16px;
 }
 
-.footer-logo .logo-color {
+.footer-logo {
+  color: var(--accent);
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  line-height: 1 0.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-color {
   color: var(--footer-text, #f4f4fd);
 }
 
