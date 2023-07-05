@@ -470,7 +470,7 @@ ul {
 .footer-left {
   margin-right: 120px;
 }
-.social-list {
+footer .social-list {
   gap: 16px;
 }
 footer .social-link:hover,
