@@ -388,7 +388,8 @@ ul {
   justify-content: center;
   align-items: center;
 }
-footer .social-link:hover {
+footer .social-link:hover,
+.social-link:focus {
   background-color: #31d0aa;
 }
 .social-link:hover {
@@ -457,6 +458,9 @@ footer .social-link:hover {
 }
 .footer-left {
   margin-right: 120px;
+}
+.social-list {
+  gap: 24px;
 }
 .footer-logo {
   color: var(--accent, #4d5ae5);
