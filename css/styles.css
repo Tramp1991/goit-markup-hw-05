@@ -135,8 +135,8 @@ ul {
   color: var(--links-color, #2e2f42);
 }
 
-.header-item :hover,
-.header-item :focus,
+.header-link :hover,
+.header-link :focus,
 .header-contacts-item > a:hover,
 .header-contacts-item > a:focus {
   color: var(--ocean, #404bbf);
@@ -165,6 +165,7 @@ ul {
   letter-spacing: 0.32px;
   padding: 24px 0px;
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active::after {
   content: "";
@@ -179,7 +180,7 @@ ul {
 }
 .active {
   position: relative;
-  color: var(--accent);
+  color: #404bbf;
 }
 
 .header-contacts-address {
@@ -196,6 +197,7 @@ ul {
 .header-contacts-item {
 }
 .header-contact-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contact {
   font-size: 16px;
@@ -253,6 +255,7 @@ ul {
   border: none;
   border-radius: 4px;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -406,6 +409,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: backgrounf-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -454,6 +458,8 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover,
 .customers-link:focus {
@@ -575,6 +581,11 @@ footer .logo-color {
   border-radius: 4px;
   min-width: 69px;
   border: 1px solid var(--button-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filt-btn:hover,
@@ -596,6 +607,8 @@ footer .logo-color {
 }
 .gallary-link {
   display: block;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallary-link:hover,
 .gallary-link:focus {
@@ -621,6 +634,9 @@ footer .logo-color {
 }
 .gallary-item:hover .overlay {
   opacity: 1;
+}
+.gallary-item {
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay-box {
   position: relative;
