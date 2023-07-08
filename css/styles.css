@@ -629,13 +629,14 @@ footer .logo-color {
   height: 100%;
   padding: 40px 32px;
   opacity: 0;
+  transform: translateY(100%);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(100%);
 }
-.gallary-item:hover .overlay {
+.gallary-link:hover .overlay,
+.gallary-link:focus .overlay {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 .gallary-item {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
