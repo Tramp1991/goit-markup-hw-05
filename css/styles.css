@@ -630,8 +630,9 @@ footer .logo-color {
   padding: 40px 32px;
   opacity: 0;
   transform: translateY(100%);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallary-link:hover .overlay,
 .gallary-link:focus .overlay {
